@@ -89,7 +89,7 @@ class Buu {
     strokeWeight (6);
     stroke(0);
     // LegMoveOffset is added to Buu's arms and and feet, so their y-position will change, when i call on the upcoming method 
-    line(bodyX - 20, bodyY + 40, bodyX - 30, bodyY + 90+ legMoveOffset); 
+    line(bodyX - 20, bodyY + 40, bodyX - 30, bodyY + 90 + legMoveOffset); 
     line(bodyX + 20, bodyY + 40, bodyX + 30, bodyY + 90 - legMoveOffset);
     
      

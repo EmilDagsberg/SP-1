@@ -24,7 +24,7 @@ class Cloud {
     int speed = 1;
     int state = 0;
     if (state==0) { // Simple if statement to make the clouds move indefinitely
-      x = x + speed;
+      x += speed;
       if (x > width+100) { // If stament to move the clods back when they go further than width+100.
         x = -100;
       }
